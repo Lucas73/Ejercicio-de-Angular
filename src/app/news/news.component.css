@@ -1,0 +1,11 @@
+img{
+  width:300px;
+  height:300px;
+}
+#news{
+  display:flex;
+  margin-top: 50px;
+}
+#body-news{
+  margin-left: 30px;
+}

@@ -1,0 +1,24 @@
+<app-admin></app-admin>
+<app-categories></app-categories>
+
+<h2>Formulario</h2>
+<div></div>
+<form (submit)="capturarInputs()">
+    <label for="titulo">Título</label>
+  <div>
+    <input placeholder="Escribe aquí tu título" id="titulo" [(ngModel)]="valor1" type="text" name="input1">
+  </div>
+  <label for="body">Body  </label>
+  <div>
+      <input placeholder="Escribe aquí tu post" id="body" [(ngModel)]="valor2" type="text"  name="input2">
+  </div>
+  <label for="imagen">Imagen</label>
+  <div>
+      <input placeholder="Escribe aquí la ur de tu imagen" id="imagen" [(ngModel)]="valor3" type="text" name="input3">
+  </div>
+  <div>
+      <input value="submit" id="submit" type="submit">
+  </div>
+</form>
+
+<router-outlet></router-outlet>
